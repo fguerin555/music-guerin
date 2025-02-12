@@ -64,70 +64,71 @@ function AudioPlayer({ src, title, artist, depositNumber }) {
   };
 
   return (
-    <div className={styles["audio-player"]}>
-      <h3>
-        {title} - {artist}
-      </h3>
-      <p>
-        <strong>Num. SIAE :</strong> {depositNumber}
-      </p>
+    <div className={styles.Player}>
+      <div className={styles.AudioPlayer}>
+        <h3>{title}</h3>
+        <h3>{artist}</h3>
+        <p>
+          <strong>Num. SIAE :</strong> {depositNumber}
+        </p>
 
-      <audio ref={audioRef} src={src}></audio>
+        <audio ref={audioRef} src={src}></audio>
 
-      {/* Barre de progression */}
-      <div className={styles.ProgressContainer}>
-        <input
-          type="range"
-          className={styles.ProgressBar}
-          min="0"
-          max={duration}
-          value={currentTime}
-          onChange={handleSeek}
-        />
-        <div>
-          {formatTime(currentTime)} / {formatTime(duration)}
+        {/* Barre de progression */}
+        <div className={styles.ProgressContainer}>
+          <input
+            type="range"
+            className={styles.ProgressBar}
+            min="0"
+            max={duration}
+            value={currentTime}
+            onChange={handleSeek}
+          />
+          <div>
+            {formatTime(currentTime)} / {formatTime(duration)}
+          </div>
         </div>
-      </div>
 
-      {/* Boutons de contrôle */}
-      <div className={styles.AudioControls}>
-        <button
-          className={styles.Play}
-          onClick={handlePlay}
-          disabled={isPlaying}
-        >
-          <i className="fas fa-play"></i>
-        </button>
-        <button
-          className={styles.Pause}
-          onClick={handlePause}
-          disabled={!isPlaying}
-        >
-          <i className="fas fa-pause"></i>
-        </button>
-        <button className={styles.Stop} onClick={handleStop}>
-          <i className="fas fa-stop"></i>
-        </button>
-        <button className={styles.Rewind} onClick={handleRewind}>
-          <i className="fas fa-fast-backward"></i>
-        </button>
-        <button className={styles.Forward} onClick={handleForward}>
-          <i className="fas fa-fast-forward"></i>
-        </button>
-      </div>
+        {/* Boutons de contrôle */}
+        <div className={styles.AudioControls}>
+          <button
+            className={styles.Play}
+            onClick={handlePlay}
+            disabled={isPlaying}
+          >
+            <i className="fas fa-play"></i>
+          </button>
+          <button
+            className={styles.Pause}
+            onClick={handlePause}
+            disabled={!isPlaying}
+          >
+            <i className="fas fa-pause"></i>
+          </button>
+          <button className={styles.Stop} onClick={handleStop}>
+            <i className="fas fa-stop"></i>
+          </button>
+          <button className={styles.Rewind} onClick={handleRewind}>
+            <i className="fas fa-fast-backward"></i>
+          </button>
+          <button className={styles.Forward} onClick={handleForward}>
+            <i className="fas fa-fast-forward"></i>
+          </button>
+        </div>
 
-      {/* Contrôle du volume */}
-      <div className={styles.VolumeContainer}>
-        <label>🔊</label>
-        <input
-          className={styles.VolumeSlider}
-          type="range"
-          min="0"
-          max="1"
-          step="0.01"
-          value={volume}
-          onChange={handleVolumeChange}
-        />
+        {/* Contrôle du volume */}
+        <div className={styles.VolumeContainer}>
+          <label>🔊</label>
+          <input
+            className={styles.VolumeSlider}
+            type="range"
+            min="0"
+            max="1"
+            step="0.01"
+            value={volume}
+            onChange={handleVolumeChange}
+          />
+        </div>
       </div>
     </div>
   );

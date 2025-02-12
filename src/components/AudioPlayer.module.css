@@ -1,79 +1,110 @@
 .audio-player {
   border-radius: 10px;
   border: 1px solid #ddd;
-  padding: 15px;
-  margin: 10px;
-  width: 200px;
+  padding: 5px;
+  margin: 5px;
+  width: 222px;
+  height: 140px;
   background: linear-gradient(135deg, #d4d237, #2a5298);
   color: white;
   font-family: Arial, sans-serif;
   text-align: left;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
+
 .audio-player h3 {
-  margin: 5px 0;
-  font-size: 14px;
+  margin: 2px 0;
+  font-size: 10px;
   color: #fff;
 }
+
 .audio-player p {
-  margin-top: 5px;
-  margin-left: 2px;
-  font-size: 12px;
+  margin-top: 2px;
+  margin-left: 1px;
+  font-size: 8px;
   color: #ddd;
 }
-.audio-controls {
+
+.AudioControls {
   display: flex;
   justify-content: center;
-  gap: 8px;
-  margin-top: 10px;
+  gap: 4px;
+  margin-top: 5px;
+  margin-bottom: 8px;
 }
-.audio-controls button {
-  background: #fff;
-  border: none;
-  padding: 8px 12px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 14px;
-  transition: 0.3s;
+.AudioControls .Play {
+  background-color: red;
 }
-.audio-controls button:hover {
-  background: #f1c40f;
+.AudioControls .Pause {
+  background-color: rgb(97, 81, 81);
 }
-.progress-container {
-  margin-top: 10px;
+.AudioControls .Stop {
+  background-color: rgb(39, 126, 170);
 }
-.progress-bar {
-  width: 100%;
-  height: 6px;
+.AudioControls .Rewind {
+  background-color: rgb(164, 39, 170);
+}
+.AudioControls .Forward {
+  background-color: rgb(164, 39, 170);
+}
+.AudioControls button {
+  color: #fff; /* Couleur de texte blanche */
+  padding: 10px 15px; /* Espacement intérieur */
+  border: none; /* Pas de bordure */
+  border-radius: 5px; /* Coins arrondis */
+  cursor: pointer; /* Curseur en forme de main */
+  transition: background-color 0.3s; /* Effet de transition */
+}
+
+.AudioControls button:hover {
+  background-color: #11e795; /* Couleur de fond plus foncée lors du survol */
+}
+
+.AudioControls button:active {
+  background-color: #2e6d31; /* Couleur de fond plus foncée lors du clic */
+}
+
+.ProgressContainer {
+  margin-top: 5px;
+}
+
+.ProgressBar {
+  width: 90%;
+  height: 4px;
   background: #ddd;
-  border-radius: 5px;
+  border-radius: 3px;
   appearance: none;
 }
-.progress-bar::-webkit-slider-thumb {
+
+.ProgressBar::-webkit-slider-thumb {
   appearance: none;
-  width: 12px;
-  height: 12px;
+  width: 8px;
+  height: 8px;
   background: #f1c40f;
   border-radius: 50%;
   cursor: pointer;
 }
-.volume-container {
-  margin-top: 10px;
+
+.VolumeContainer {
+  margin-top: 8px;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
 }
-.volume-slider {
-  width: 100px;
+
+.VolumeSlider {
+  margin-top: 8px;
+  width: 80%;
   appearance: none;
   background: #ddd;
-  height: 6px;
-  border-radius: 5px;
+  height: 4px;
+  border-radius: 3px;
 }
-.volume-slider::-webkit-slider-thumb {
+
+.VolumeSlider::-webkit-slider-thumb {
   appearance: none;
-  width: 12px;
-  height: 12px;
+  width: 8px;
+  height: 8px;
   background: #f1c40f;
   border-radius: 50%;
   cursor: pointer;

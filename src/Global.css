@@ -42,14 +42,14 @@ body {
   margin: 0;
   box-sizing: 0;
   padding: 0;
-  background-color: rgb(64, 103, 15);
+  background-color: rgba(33, 29, 42, 0.639);
 }
 html {
   margin: 0;
   padding: 0;
 }
-/* }
-button {
+
+/* button {
   display: flex;
   justify-content: center;
   align-items: center;

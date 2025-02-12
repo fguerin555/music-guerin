@@ -1,8 +1,0 @@
-.back-button {
-  position: sticky;
-  top: 0;
-  left: 99%;
-  width: 22px !important;
-  height: 22px !important;
-  z-index: 1000;
-}

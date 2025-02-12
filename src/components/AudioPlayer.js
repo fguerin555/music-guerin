@@ -75,10 +75,10 @@ function AudioPlayer({ src, title, artist, depositNumber }) {
       <audio ref={audioRef} src={src}></audio>
 
       {/* Barre de progression */}
-      <div className="progress-container">
+      <div className={styles.ProgressContainer}>
         <input
           type="range"
-          className="progress-bar"
+          className={styles.ProgressBar}
           min="0"
           max={duration}
           value={currentTime}
@@ -90,24 +90,38 @@ function AudioPlayer({ src, title, artist, depositNumber }) {
       </div>
 
       {/* Boutons de contrôle */}
-      <div className="audio-controls">
-        <button onClick={handlePlay} disabled={isPlaying}>
-          ▶
+      <div className={styles.AudioControls}>
+        <button
+          className={styles.Play}
+          onClick={handlePlay}
+          disabled={isPlaying}
+        >
+          <i className="fas fa-play"></i>
         </button>
-        <button onClick={handlePause} disabled={!isPlaying}>
-          ⏸
+        <button
+          className={styles.Pause}
+          onClick={handlePause}
+          disabled={!isPlaying}
+        >
+          <i className="fas fa-pause"></i>
         </button>
-        <button onClick={handleStop}>⏹</button>
-        <button onClick={handleRewind}>⏪</button>
-        <button onClick={handleForward}>⏩</button>
+        <button className={styles.Stop} onClick={handleStop}>
+          <i className="fas fa-stop"></i>
+        </button>
+        <button className={styles.Rewind} onClick={handleRewind}>
+          <i className="fas fa-fast-backward"></i>
+        </button>
+        <button className={styles.Forward} onClick={handleForward}>
+          <i className="fas fa-fast-forward"></i>
+        </button>
       </div>
 
       {/* Contrôle du volume */}
-      <div className="volume-container">
+      <div className={styles.VolumeContainer}>
         <label>🔊</label>
         <input
+          className={styles.VolumeSlider}
           type="range"
-          className="volume-slider"
           min="0"
           max="1"
           step="0.01"

@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/music-guerin/static/css/main.ef543bd0.css",
-    "main.js": "/music-guerin/static/js/main.08fcefd8.js",
+    "main.css": "/music-guerin/static/css/main.90e7d30c.css",
+    "main.js": "/music-guerin/static/js/main.ff174a5a.js",
+    "static/media/La-Collezione.mp3": "/music-guerin/static/media/La-Collezione.120afa0336824953308e.mp3",
+    "static/media/Fragile.mp3": "/music-guerin/static/media/Fragile.955cac7d80cdd1e6b82b.mp3",
     "static/media/Montserrat-LightItalic.ttf": "/music-guerin/static/media/Montserrat-LightItalic.ac3843da62f0afac7929.ttf",
     "static/media/Montserrat-MediumItalic.ttf": "/music-guerin/static/media/Montserrat-MediumItalic.67e6dda3939a21720991.ttf",
     "static/media/Montserrat-ExtraLightItalic.ttf": "/music-guerin/static/media/Montserrat-ExtraLightItalic.8df5777e3ea85687bdf0.ttf",
@@ -14,11 +16,11 @@
     "static/media/source-sans-pro.regular.ttf": "/music-guerin/static/media/source-sans-pro.regular.358e8828cd2fc97c7e74.ttf",
     "static/media/JosefinSans-Medium.ttf": "/music-guerin/static/media/JosefinSans-Medium.45a5738c27c1bbbecc0c.ttf",
     "index.html": "/music-guerin/index.html",
-    "main.ef543bd0.css.map": "/music-guerin/static/css/main.ef543bd0.css.map",
-    "main.08fcefd8.js.map": "/music-guerin/static/js/main.08fcefd8.js.map"
+    "main.90e7d30c.css.map": "/music-guerin/static/css/main.90e7d30c.css.map",
+    "main.ff174a5a.js.map": "/music-guerin/static/js/main.ff174a5a.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef543bd0.css",
-    "static/js/main.08fcefd8.js"
+    "static/css/main.90e7d30c.css",
+    "static/js/main.ff174a5a.js"
   ]
 }

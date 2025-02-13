@@ -1,51 +1,75 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
 .AudioPlayer {
   border-radius: 10px;
   border: 1px solid #ddd;
   padding: 5px;
   margin: 5px;
-  width: 242px;
-  height: 200px;
-  background: linear-gradient(135deg, #d4d237, #2a5298);
+  width: 210px;
+  height: 145px;
+  background: linear-gradient(110deg, #20211f, #29d9b9);
   color: white;
-  font-family: Arial, sans-serif;
   text-align: left;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
-
 .AudioPlayer h3 {
   margin: 2px 0;
   font-size: 15px;
-  color: #fff;
+  /* color: #fff; */
+  color: rgb(241, 144, 9);
+  font-family: "font-montserrat-thin-italic", sans-serif, Arial;
 }
 
-.AudioPlayer p {
+.AudioPlayer h4 {
   margin-top: 2px;
   margin-left: 1px;
+  margin-bottom: 0;
+  font-family: "font-Josefin-Sans-Medium", sans-serif, Arial !important;
+  font-size: 13px;
+  color: #f7eeee;
+}
+.AudioPlayer h5 {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  font-family: "font-montserrat-thin", sans-serif, Arial !important;
+  font-size: 11px;
+}
+
+.Progress {
   font-size: 12px;
-  color: #ddd;
 }
 
 .AudioControls {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   gap: 4px;
   margin-top: 5px;
   margin-bottom: 8px;
 }
 .AudioControls .Play {
   background-color: red;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  font-size: 10px;
 }
 .AudioControls .Pause {
-  background-color: rgb(97, 81, 81);
+  background-color: rgb(170, 100, 20);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  font-size: 10px;
 }
 .AudioControls .Stop {
-  background-color: rgb(39, 126, 170);
+  background-color: rgb(39, 87, 170);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  font-size: 10px;
 }
 .AudioControls .Rewind {
   background-color: rgb(164, 39, 170);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  font-size: 10px;
 }
 .AudioControls .Forward {
   background-color: rgb(164, 39, 170);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  font-size: 10px;
 }
 .AudioControls button {
   color: #fff; /* Couleur de texte blanche */
@@ -65,11 +89,11 @@
 }
 
 .ProgressContainer {
-  margin-top: 5px;
+  margin-top: 1px;
 }
 
 .ProgressBar {
-  width: 90%;
+  width: 95%;
   height: 4px;
   background: #ddd;
   border-radius: 3px;
@@ -78,9 +102,9 @@
 
 .ProgressBar::-webkit-slider-thumb {
   appearance: none;
-  width: 8px;
-  height: 8px;
-  background: #f1c40f;
+  width: 10px;
+  height: 10px;
+  background: #f19f06;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -99,13 +123,14 @@
   background: #ddd;
   height: 4px;
   border-radius: 3px;
+  margin-bottom: 2px;
 }
 
 .VolumeSlider::-webkit-slider-thumb {
   appearance: none;
-  width: 8px;
-  height: 8px;
-  background: #f1c40f;
+  width: 10px;
+  height: 10px;
+  background: #130ff1;
   border-radius: 50%;
   cursor: pointer;
 }

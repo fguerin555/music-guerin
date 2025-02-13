@@ -49,33 +49,7 @@ html {
   padding: 0;
 }
 
-/* button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  font-size: 18px;
-  padding: 10px 20px;
-  border-radius: 7px;
-  cursor: pointer;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  background-color: rgb(144, 183, 230);
-  color: beige;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
-  border: none;
-  text-shadow: 2px 2px 4px #15459e;
-}
-button:hover {
-  background-color: rgb(247, 37, 6) !important;
-  transition: 0.2s;
-}
-a {
-  text-decoration: none;
-}
-
-@media (max-width: 1224px) {
+/* @media (max-width: 1224px) {
   button {
     padding: 5px 8px !important;
   }

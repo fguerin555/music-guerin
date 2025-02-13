@@ -19,7 +19,7 @@
 }
 
 .navbarLinks {
-  font-family: "source-sans-pro.regular", Arial, sans-serif;
+  font-family: "Montserrat-Thin", Arial, sans-serif;
   list-style: none;
   display: flex; /* Utilisation de flexbox pour l'alignement */
   justify-content: center;

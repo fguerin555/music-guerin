@@ -11,13 +11,19 @@ const Navbar = () => {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/About">About</Link>
+          <Link to="/Chamber">Orchestral Chamber</Link>
         </li>
         <li>
-          <Link to="/Orchestral">Orchestral Music</Link>
+          <Link to="/Orchestral">Orchestral Symphonic</Link>
         </li>
         <li>
-          <Link to="/Urban">Urban Music</Link>
+          <Link to="/Urban">Urban Ambiance</Link>
+        </li>
+        <li>
+          <Link to="/Etnic">Ethnic Ambiance</Link>
+        </li>
+        <li>
+          <Link to="/Jazz">Jazz Ambiance</Link>
         </li>
       </ul>
     </nav>

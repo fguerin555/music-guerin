@@ -4,15 +4,24 @@
   "private": true,
   "homepage": "https://fguerin555.github.io/music-guerin",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "assert": "^2.1.0",
     "axios": "^1.7.9",
+    "buffer": "^6.0.3",
     "cra-template": "1.2.0",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.3.0",
+    "memfs": "^4.17.0",
+    "path-browserify": "^1.0.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.4.0",
     "react-responsive": "^10.0.0",
     "react-router-dom": "^6.29.0",
     "react-scripts": "5.0.1",
-    "styled-components": "^6.1.15"
+    "stream-browserify": "^3.0.0",
+    "styled-components": "^6.1.15",
+    "util": "^0.12.5"
   },
   "scripts": {
     "predeploy": "npm run build",

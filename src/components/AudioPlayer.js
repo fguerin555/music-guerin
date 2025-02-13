@@ -1,7 +1,8 @@
 import { useRef, useState, useEffect } from "react";
 import styles from "./AudioPlayer.module.css";
+import "./../Global.css";
 
-function AudioPlayer({ src, title, artist, depositNumber }) {
+function AudioPlayer({ src, title, depositNumber, artist }) {
   const audioRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
@@ -67,10 +68,8 @@ function AudioPlayer({ src, title, artist, depositNumber }) {
     <div className={styles.Player}>
       <div className={styles.AudioPlayer}>
         <h3>{title}</h3>
-        <h3>{artist}</h3>
-        <p>
-          <strong>Num. SIAE :</strong> {depositNumber}
-        </p>
+
+        <h4>Num.SIAE : {depositNumber}</h4>
 
         <audio ref={audioRef} src={src}></audio>
 
@@ -84,50 +83,57 @@ function AudioPlayer({ src, title, artist, depositNumber }) {
             value={currentTime}
             onChange={handleSeek}
           />
-          <div>
-            {formatTime(currentTime)} / {formatTime(duration)}
+
+          <div
+            className={styles.Progress}
+            style={{ display: "flex", justifyContent: "space-between" }}
+          >
+            <h5>© Frédéric Guérin</h5>
+            <span>
+              {formatTime(currentTime)} / {formatTime(duration)}
+            </span>
           </div>
-        </div>
 
-        {/* Boutons de contrôle */}
-        <div className={styles.AudioControls}>
-          <button
-            className={styles.Play}
-            onClick={handlePlay}
-            disabled={isPlaying}
-          >
-            <i className="fas fa-play"></i>
-          </button>
-          <button
-            className={styles.Pause}
-            onClick={handlePause}
-            disabled={!isPlaying}
-          >
-            <i className="fas fa-pause"></i>
-          </button>
-          <button className={styles.Stop} onClick={handleStop}>
-            <i className="fas fa-stop"></i>
-          </button>
-          <button className={styles.Rewind} onClick={handleRewind}>
-            <i className="fas fa-fast-backward"></i>
-          </button>
-          <button className={styles.Forward} onClick={handleForward}>
-            <i className="fas fa-fast-forward"></i>
-          </button>
-        </div>
+          {/* Boutons de contrôle */}
+          <div className={styles.AudioControls}>
+            <button
+              className={styles.Play}
+              onClick={handlePlay}
+              disabled={isPlaying}
+            >
+              <i className="fas fa-play"></i>
+            </button>
+            <button
+              className={styles.Pause}
+              onClick={handlePause}
+              disabled={!isPlaying}
+            >
+              <i className="fas fa-pause"></i>
+            </button>
+            <button className={styles.Stop} onClick={handleStop}>
+              <i className="fas fa-stop"></i>
+            </button>
+            <button className={styles.Rewind} onClick={handleRewind}>
+              <i className="fas fa-fast-backward"></i>
+            </button>
+            <button className={styles.Forward} onClick={handleForward}>
+              <i className="fas fa-fast-forward"></i>
+            </button>
+          </div>
 
-        {/* Contrôle du volume */}
-        <div className={styles.VolumeContainer}>
-          <label>🔊</label>
-          <input
-            className={styles.VolumeSlider}
-            type="range"
-            min="0"
-            max="1"
-            step="0.01"
-            value={volume}
-            onChange={handleVolumeChange}
-          />
+          {/* Contrôle du volume */}
+          <div className={styles.VolumeContainer}>
+            <label>🔊</label>
+            <input
+              className={styles.VolumeSlider}
+              type="range"
+              min="0"
+              max="1"
+              step="0.01"
+              value={volume}
+              onChange={handleVolumeChange}
+            />
+          </div>
         </div>
       </div>
     </div>

@@ -10,6 +10,8 @@ import Faraway from "../../assets/musicJazz/Faraway.mp3";
 import JuanlesPins from "../../assets/musicJazz/JuanlesPins.mp3";
 import MangoTambo from "../../assets/musicJazz/MangoTambo.mp3";
 import LaFrecciaAzzura from "../../assets/musicJazz/LaFrecciaAzzura.mp3";
+import BehindtheDoor from "../../assets/musicJazz/BehindtheDoor.mp3";
+import WhiteNight from "../../assets/musicJazz/WhiteNight.mp3";
 
 const Jazz = () => {
   const audioRef = useRef(null);
@@ -18,14 +20,12 @@ const Jazz = () => {
       <div className={styles.JazzPage}>
         <p>Jazz Ambiance</p>
 
-        <ScrollToTop />
-        <BackButton />
         <div className={styles.LecteursContainer}>
           <AudioPlayer
             className={styles.Player}
             src={DontCryJanet}
             title="Don't Cry Janet"
-            depositNumber="123456"
+            depositNumber="18123032900"
           >
             <audio
               ref={(audio) => (audioRef.current = audio)}
@@ -36,7 +36,7 @@ const Jazz = () => {
             className={styles.Player}
             src={Faraway}
             title="Faraway"
-            depositNumber="123456"
+            depositNumber="20329071500"
           >
             <audio ref={(audio) => (audioRef.current = audio)} src={Faraway} />
           </AudioPlayer>
@@ -44,7 +44,7 @@ const Jazz = () => {
             className={styles.Player}
             src={JuanlesPins}
             title="Juan les Pins"
-            depositNumber="123456"
+            depositNumber="18123033000"
           >
             <audio
               ref={(audio) => (audioRef.current = audio)}
@@ -53,9 +53,31 @@ const Jazz = () => {
           </AudioPlayer>
           <AudioPlayer
             className={styles.Player}
+            src={BehindtheDoor}
+            title="Behind the Door"
+            depositNumber="18150059300"
+          >
+            <audio
+              ref={(audio) => (audioRef.current = audio)}
+              src={BehindtheDoor}
+            />
+          </AudioPlayer>
+          <AudioPlayer
+            className={styles.Player}
+            src={WhiteNight}
+            title="White Night"
+            depositNumber="23102082900"
+          >
+            <audio
+              ref={(audio) => (audioRef.current = audio)}
+              src={WhiteNight}
+            />
+          </AudioPlayer>
+          <AudioPlayer
+            className={styles.Player}
             src={MangoTambo}
             title="Mango Tambo"
-            depositNumber="123456"
+            depositNumber="20345001400"
           >
             <audio
               ref={(audio) => (audioRef.current = audio)}
@@ -66,7 +88,7 @@ const Jazz = () => {
             className={styles.Player}
             src={LaFrecciaAzzura}
             title="La Freccia Azzura"
-            depositNumber="123456"
+            depositNumber="20342051300"
           >
             <audio
               ref={(audio) => (audioRef.current = audio)}
@@ -74,6 +96,8 @@ const Jazz = () => {
             />
           </AudioPlayer>
         </div>
+        <ScrollToTop />
+        <BackButton />
       </div>
     </div>
   );

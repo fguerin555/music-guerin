@@ -1,4 +1,37 @@
-.ChamberPage h1 {
-  color: yellow;
-  font-family: "Montserrat-Medium", Arial, sans-serif;
+.ChamberPage {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ChamberPage p {
+  color: rgb(238, 223, 223);
+  font-family: "Montserrat-Thin", Arial, sans-serif;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.LecteursContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 6%;
+  margin-right: auto;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+}
+@media (max-width: 508px) {
+  .LecteursContainer {
+    max-width: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .Player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+
+    width: 100%;
+  }
 }

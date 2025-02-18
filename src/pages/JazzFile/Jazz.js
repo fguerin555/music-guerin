@@ -12,6 +12,8 @@ import MangoTambo from "../../assets/musicJazz/MangoTambo.mp3";
 import LaFrecciaAzzura from "../../assets/musicJazz/LaFrecciaAzzura.mp3";
 import BehindtheDoor from "../../assets/musicJazz/BehindtheDoor.mp3";
 import WhiteNight from "../../assets/musicJazz/WhiteNight.mp3";
+import Auroville from "../../assets/musicJazz/Auroville.mp3";
+import IrishWind from "../../assets/musicJazz/IrishWind.mp3";
 
 const Jazz = () => {
   const audioRef = useRef(null);
@@ -93,6 +95,30 @@ const Jazz = () => {
             <audio
               ref={(audio) => (audioRef.current = audio)}
               src={LaFrecciaAzzura}
+            />
+          </AudioPlayer>
+
+          <AudioPlayer
+            className={styles.Player}
+            src={IrishWind}
+            title="Irish'Wind"
+            depositNumber="20"
+          >
+            <audio
+              ref={(audio) => (audioRef.current = audio)}
+              src={IrishWind}
+            />
+          </AudioPlayer>
+
+          <AudioPlayer
+            className={styles.Player}
+            src={Auroville}
+            title="Auroville"
+            depositNumber="20"
+          >
+            <audio
+              ref={(audio) => (audioRef.current = audio)}
+              src={Auroville}
             />
           </AudioPlayer>
         </div>

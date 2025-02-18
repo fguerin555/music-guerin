@@ -17,13 +17,13 @@ const Navbar = () => {
           <Link to="/Orchestral">Symphonic</Link>
         </li>
         <li>
-          <Link to="/Urban">Urban</Link>
+          <Link to="/Urban">Urban/Rock</Link>
         </li>
         <li>
-          <Link to="/Etnic">Ethnic</Link>
+          <Link to="/Piano">Piano</Link>
         </li>
         <li>
-          <Link to="/Jazz">Jazz</Link>
+          <Link to="/Jazz">Jazz/Ethnic</Link>
         </li>
       </ul>
     </nav>

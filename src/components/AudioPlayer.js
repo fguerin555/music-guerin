@@ -69,7 +69,9 @@ function AudioPlayer({ src, title, depositNumber, artist }) {
       <div className={styles.AudioPlayer}>
         <h3>{title}</h3>
 
-        <h4>Num.SIAE : {depositNumber}</h4>
+        <h4>
+          Num.SIAE : <span tel="false">{depositNumber}</span>
+        </h4>
 
         <audio ref={audioRef} src={src}></audio>
 

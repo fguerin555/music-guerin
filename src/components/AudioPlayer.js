@@ -70,8 +70,7 @@ function AudioPlayer({ src, title, depositNumber, artist }) {
         <h3>{title}</h3>
 
         <h4>
-          Num.SIAE : <span tel="false" data-number="{depositNumber}"></span>
-          {depositNumber}
+          Num.SIAE : <span tel="false"> {depositNumber}</span>
         </h4>
 
         <audio ref={audioRef} src={src}></audio>

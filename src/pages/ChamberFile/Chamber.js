@@ -19,7 +19,6 @@ import BambolanellaNeve from "../../assets/music/Orchestral/BambolanellaNeve.mp3
 import BlackTime from "../../assets/music/Orchestral/BlackTime.mp3";
 import BronzodiRiace from "../../assets/music/Orchestral/BronzodiRiace.mp3";
 import Carminio from "../../assets/music/Orchestral/Carminio.mp3";
-
 import Giostra from "../../assets/music/Orchestral/Giostra.mp3";
 import IlBarone from "../../assets/music/Orchestral/IlBarone.mp3";
 import Indagine from "../../assets/music/Orchestral/Indagine.mp3";
@@ -32,6 +31,7 @@ import SottoMarini from "../../assets/music/Orchestral/SottoMarini.mp3";
 import UnClown from "../../assets/music/Orchestral/UnClown.mp3";
 import Viola from "../../assets/music/Orchestral/Viola.mp3";
 import WhiskyBaby from "../../assets/music/Orchestral/WhiskyBaby.mp3";
+import MangoTambo from "../../assets/music/Orchestral/MangoTambo.mp3";
 
 const Chamber = () => {
   const audioRef = useRef(null);
@@ -103,6 +103,15 @@ const Chamber = () => {
             depositNumber="17"
           >
             <audio ref={(audio) => (audioRef.current = audio)} src={Giostra} />
+          </AudioPlayer>
+
+          <AudioPlayer
+            className={styles.Player}
+            src={Indagine}
+            title="Indagine"
+            depositNumber="17"
+          >
+            <audio ref={(audio) => (audioRef.current = audio)} src={Indagine} />
           </AudioPlayer>
 
           <AudioPlayer
@@ -215,6 +224,18 @@ const Chamber = () => {
 
           <AudioPlayer
             className={styles.Player}
+            src={BronzodiRiace}
+            title="Bronzo di Riace"
+            depositNumber="17"
+          >
+            <audio
+              ref={(audio) => (audioRef.current = audio)}
+              src={BronzodiRiace}
+            />
+          </AudioPlayer>
+
+          <AudioPlayer
+            className={styles.Player}
             src={Requiem}
             title="Requiem"
             depositNumber="17"
@@ -224,11 +245,35 @@ const Chamber = () => {
 
           <AudioPlayer
             className={styles.Player}
+            src={MangoTambo}
+            title="Mango Tambo"
+            depositNumber="17"
+          >
+            <audio
+              ref={(audio) => (audioRef.current = audio)}
+              src={MangoTambo}
+            />
+          </AudioPlayer>
+
+          <AudioPlayer
+            className={styles.Player}
             src={OvalRoom}
             title="Oval Room"
             depositNumber="17"
           >
             <audio ref={(audio) => (audioRef.current = audio)} src={OvalRoom} />
+          </AudioPlayer>
+
+          <AudioPlayer
+            className={styles.Player}
+            src={BlackTime}
+            title="Black Time"
+            depositNumber="17"
+          >
+            <audio
+              ref={(audio) => (audioRef.current = audio)}
+              src={BlackTime}
+            />
           </AudioPlayer>
 
           <AudioPlayer

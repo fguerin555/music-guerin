@@ -8,7 +8,9 @@ import BackButton from "../../components/BackButton";
 import DontCryJanet from "../../assets/musicJazz/Don'tCryJanet.mp3";
 import Faraway from "../../assets/musicJazz/Faraway.mp3";
 import JuanlesPins from "../../assets/musicJazz/JuanlesPins.mp3";
-import MangoTambo from "../../assets/musicJazz/MangoTambo.mp3";
+import MuseoInfinito1 from "../../assets/musicJazz/MuseoInfinito1.mp3";
+import MuseoInfinito2 from "../../assets/musicJazz/MuseoInfinito2.mp3";
+
 import LaFrecciaAzzura from "../../assets/musicJazz/LaFrecciaAzzura.mp3";
 import BehindtheDoor from "../../assets/musicJazz/BehindtheDoor.mp3";
 import WhiteNight from "../../assets/musicJazz/WhiteNight.mp3";
@@ -75,17 +77,31 @@ const Jazz = () => {
               src={WhiteNight}
             />
           </AudioPlayer>
+
           <AudioPlayer
             className={styles.Player}
-            src={MangoTambo}
-            title="Mango Tambo"
-            depositNumber="20345001400"
+            src={MuseoInfinito1}
+            title="Museo Infinito Uno"
+            depositNumber="251090777"
           >
             <audio
               ref={(audio) => (audioRef.current = audio)}
-              src={MangoTambo}
+              src={MuseoInfinito1}
             />
           </AudioPlayer>
+
+          <AudioPlayer
+            className={styles.Player}
+            src={MuseoInfinito2}
+            title="Museo Infinito Due"
+            depositNumber="251090785"
+          >
+            <audio
+              ref={(audio) => (audioRef.current = audio)}
+              src={MuseoInfinito2}
+            />
+          </AudioPlayer>
+
           <AudioPlayer
             className={styles.Player}
             src={LaFrecciaAzzura}

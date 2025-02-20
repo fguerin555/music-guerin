@@ -28,7 +28,7 @@ const West = () => {
             className={styles.Player}
             src={GoWest}
             title="Go West"
-            depositNumber="17"
+            depositNumber="20329071800"
           >
             <audio ref={(audio) => (audioRef.current = audio)} src={GoWest} />
           </AudioPlayer>
@@ -37,7 +37,7 @@ const West = () => {
             className={styles.Player}
             src={Caravans}
             title="Caravans"
-            depositNumber="17"
+            depositNumber="20329073900"
           >
             <audio ref={(audio) => (audioRef.current = audio)} src={Caravans} />
           </AudioPlayer>
@@ -46,7 +46,7 @@ const West = () => {
             className={styles.Player}
             src={AdiosAmigos}
             title="Adios Amigos"
-            depositNumber="17"
+            depositNumber="20329075200"
           >
             <audio
               ref={(audio) => (audioRef.current = audio)}
@@ -58,7 +58,7 @@ const West = () => {
             className={styles.Player}
             src={InTown}
             title="In Town"
-            depositNumber="17"
+            depositNumber="20329072600"
           >
             <audio ref={(audio) => (audioRef.current = audio)} src={InTown} />
           </AudioPlayer>
@@ -67,7 +67,7 @@ const West = () => {
             className={styles.Player}
             src={TheCavalry}
             title="The Cavalry"
-            depositNumber="17"
+            depositNumber="20329074700"
           >
             <audio
               ref={(audio) => (audioRef.current = audio)}
@@ -79,7 +79,7 @@ const West = () => {
             className={styles.Player}
             src={TheRider}
             title="The Rider"
-            depositNumber="17"
+            depositNumber="20329074100"
           >
             <audio ref={(audio) => (audioRef.current = audio)} src={TheRider} />
           </AudioPlayer>
@@ -88,7 +88,7 @@ const West = () => {
             className={styles.Player}
             src={Sombreros}
             title="Sombreros"
-            depositNumber="17"
+            depositNumber="20329074900"
           >
             <audio
               ref={(audio) => (audioRef.current = audio)}
@@ -100,7 +100,7 @@ const West = () => {
             className={styles.Player}
             src={RioGrande}
             title="Rio Grande"
-            depositNumber="17"
+            depositNumber="20329073500"
           >
             <audio
               ref={(audio) => (audioRef.current = audio)}
@@ -112,7 +112,7 @@ const West = () => {
             className={styles.Player}
             src={PampaSunrise}
             title="Pampa Sunrise"
-            depositNumber="17"
+            depositNumber="20329072200"
           >
             <audio
               ref={(audio) => (audioRef.current = audio)}
@@ -124,7 +124,7 @@ const West = () => {
             className={styles.Player}
             src={GoodTimeBadTime}
             title="Good Time Bad Time"
-            depositNumber="17"
+            depositNumber="20329073000"
           >
             <audio
               ref={(audio) => (audioRef.current = audio)}

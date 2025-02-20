@@ -9,7 +9,10 @@ const Footer = () => {
       <div className={styles.Footer}>
         <div className={styles.FooterContactInfo}>
           <span className={styles.FooterEmail}>
-            mail: &nbsp; fguerin555@gmail.com
+            <p>All Rights Reserved for All Countries</p>
+            <p>©Frédéric Guérin</p>
+            <p>Works Protected by :</p>
+            <p>Società Italiana Autori ed Editori S.I.A.E.</p>
           </span>
         </div>
       </div>

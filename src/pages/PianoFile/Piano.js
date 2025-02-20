@@ -23,8 +23,8 @@ const Piano = () => {
           <AudioPlayer
             className={styles.Player}
             src={Animapianosolo}
-            title="Anima"
-            depositNumber="18"
+            title="Anima Piano Solo"
+            depositNumber="20165038100"
           >
             <audio
               ref={(audio) => (audioRef.current = audio)}
@@ -35,7 +35,7 @@ const Piano = () => {
             className={styles.Player}
             src={Ricordi}
             title="Ricordi"
-            depositNumber="18"
+            depositNumber="17016049100"
           >
             <audio ref={(audio) => (audioRef.current = audio)} src={Ricordi} />
           </AudioPlayer>
@@ -43,7 +43,7 @@ const Piano = () => {
             className={styles.Player}
             src={FilastrocadAutunno}
             title="Filastroca d'Autumno"
-            depositNumber="18"
+            depositNumber="20342051100"
           >
             <audio
               ref={(audio) => (audioRef.current = audio)}
@@ -54,7 +54,7 @@ const Piano = () => {
             className={styles.Player}
             src={Giocattolo}
             title="Giocattolo"
-            depositNumber="18"
+            depositNumber="20342051800"
           >
             <audio
               ref={(audio) => (audioRef.current = audio)}
@@ -65,7 +65,7 @@ const Piano = () => {
             className={styles.Player}
             src={Inchiostro}
             title="Inchiostro"
-            depositNumber="18"
+            depositNumber="20168047800"
           >
             <audio
               ref={(audio) => (audioRef.current = audio)}
@@ -77,7 +77,7 @@ const Piano = () => {
             className={styles.Player}
             src={CeraunaVolta}
             title="C'Era una Volta"
-            depositNumber="18"
+            depositNumber="20342052000"
           >
             <audio
               ref={(audio) => (audioRef.current = audio)}

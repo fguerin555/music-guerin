@@ -20,11 +20,14 @@
   gap: 5px;
 }
 
-.FooterEmail {
+.FooterEmail p {
   margin-top: 0;
-  font-family: "Montserrat-Medium", Arial, sans-serif;
+  font-family: "Montserrat-Thin", Arial, sans-serif;
   font-size: 1.5rem;
-  color: #8dd6f6;
+  color: #8df6b4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media (max-width: 1224px) {
   .FooterContactInfo {
@@ -37,14 +40,13 @@
     margin: 0 auto;
     gap: 5px;
   }
-  @media (max-width: 1224px) {
-    .FooterTelephone {
-      width: 100%;
-      font-size: 1rem;
-    }
-    .FooterEmail {
-      width: 100%;
-      font-size: 1rem;
-    }
+
+  .FooterTelephone {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .FooterEmail p {
+    width: 100%;
+    font-size: 1rem;
   }
 }

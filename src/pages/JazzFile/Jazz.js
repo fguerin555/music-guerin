@@ -16,13 +16,14 @@ import BehindtheDoor from "../../assets/musicJazz/BehindtheDoor.mp3";
 import WhiteNight from "../../assets/musicJazz/WhiteNight.mp3";
 import Auroville from "../../assets/musicJazz/Auroville.mp3";
 import IrishWind from "../../assets/musicJazz/IrishWind.mp3";
+import Alambra from "../../assets/musicJazz/Alambra.mp3";
 
 const Jazz = () => {
   const audioRef = useRef(null);
   return (
     <div>
       <div className={styles.JazzPage}>
-        <p>Jazz Ambiance</p>
+        <p>Jazz / Ethnic</p>
 
         <div className={styles.LecteursContainer}>
           <AudioPlayer
@@ -118,7 +119,7 @@ const Jazz = () => {
             className={styles.Player}
             src={IrishWind}
             title="Irish'Wind"
-            depositNumber="20"
+            depositNumber="22367001400"
           >
             <audio
               ref={(audio) => (audioRef.current = audio)}
@@ -130,12 +131,21 @@ const Jazz = () => {
             className={styles.Player}
             src={Auroville}
             title="Auroville"
-            depositNumber="20"
+            depositNumber="22367001700"
           >
             <audio
               ref={(audio) => (audioRef.current = audio)}
               src={Auroville}
             />
+          </AudioPlayer>
+
+          <AudioPlayer
+            className={styles.Player}
+            src={Alambra}
+            title="Alambra"
+            depositNumber="251100626"
+          >
+            <audio ref={(audio) => (audioRef.current = audio)} src={Alambra} />
           </AudioPlayer>
         </div>
         <ScrollToTop />

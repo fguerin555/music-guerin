@@ -1,34 +1,25 @@
 .close-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  font-size: 18px;
-  padding: 10px 20px;
-  border-radius: 7px;
-  cursor: pointer;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  background-color: rgb(83, 229, 166);
-  color: beige;
-  border: none;
-  border-radius: 5px;
-  padding: 4px 5px;
-  height: 30px;
-  font-size: 20px;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
-  border: none;
-  text-shadow: 2px 2px 4px #15459e;
+  display: none;
 }
 @media (max-width: 1224px) {
   .close-button {
-    display: display !important;
+    display: block !important;
     position: fixed;
     bottom: 115px;
     left: 2px;
     width: 30px !important;
     height: 30px !important;
     z-index: 1000;
+    margin-top: 20px;
+    background-color: rgb(83, 229, 166);
+    color: beige;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 5px;
+    height: 30px;
+    font-size: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    border: none;
+    text-shadow: 2px 2px 4px #15459e;
   }
 }

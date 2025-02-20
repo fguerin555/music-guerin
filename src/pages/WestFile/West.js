@@ -35,15 +35,6 @@ const West = () => {
 
           <AudioPlayer
             className={styles.Player}
-            src={Caravans}
-            title="Caravans"
-            depositNumber="20329073900"
-          >
-            <audio ref={(audio) => (audioRef.current = audio)} src={Caravans} />
-          </AudioPlayer>
-
-          <AudioPlayer
-            className={styles.Player}
             src={AdiosAmigos}
             title="Adios Amigos"
             depositNumber="20329075200"
@@ -65,6 +56,15 @@ const West = () => {
 
           <AudioPlayer
             className={styles.Player}
+            src={TheRider}
+            title="The Rider"
+            depositNumber="20329074100"
+          >
+            <audio ref={(audio) => (audioRef.current = audio)} src={TheRider} />
+          </AudioPlayer>
+
+          <AudioPlayer
+            className={styles.Player}
             src={TheCavalry}
             title="The Cavalry"
             depositNumber="20329074700"
@@ -73,15 +73,6 @@ const West = () => {
               ref={(audio) => (audioRef.current = audio)}
               src={TheCavalry}
             />
-          </AudioPlayer>
-
-          <AudioPlayer
-            className={styles.Player}
-            src={TheRider}
-            title="The Rider"
-            depositNumber="20329074100"
-          >
-            <audio ref={(audio) => (audioRef.current = audio)} src={TheRider} />
           </AudioPlayer>
 
           <AudioPlayer
@@ -95,6 +86,14 @@ const West = () => {
               src={Sombreros}
             />
           </AudioPlayer>
+          <AudioPlayer
+            className={styles.Player}
+            src={Caravans}
+            title="Caravans"
+            depositNumber="20329073900"
+          >
+            <audio ref={(audio) => (audioRef.current = audio)} src={Caravans} />
+          </AudioPlayer>
 
           <AudioPlayer
             className={styles.Player}
@@ -107,6 +106,17 @@ const West = () => {
               src={RioGrande}
             />
           </AudioPlayer>
+          <AudioPlayer
+            className={styles.Player}
+            src={GoodTimeBadTime}
+            title="Good Time Bad Time"
+            depositNumber="20329073000"
+          >
+            <audio
+              ref={(audio) => (audioRef.current = audio)}
+              src={GoodTimeBadTime}
+            />
+          </AudioPlayer>
 
           <AudioPlayer
             className={styles.Player}
@@ -117,18 +127,6 @@ const West = () => {
             <audio
               ref={(audio) => (audioRef.current = audio)}
               src={PampaSunrise}
-            />
-          </AudioPlayer>
-
-          <AudioPlayer
-            className={styles.Player}
-            src={GoodTimeBadTime}
-            title="Good Time Bad Time"
-            depositNumber="20329073000"
-          >
-            <audio
-              ref={(audio) => (audioRef.current = audio)}
-              src={GoodTimeBadTime}
             />
           </AudioPlayer>
         </div>

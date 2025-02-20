@@ -2,6 +2,8 @@ import { useRef, useState, useEffect } from "react";
 import styles from "./AudioPlayer.module.css";
 import "./../Global.css";
 
+let currentAudio = null; // Référence globale pour suivre l'audio en cours
+
 function AudioPlayer({ src, title, depositNumber, artist }) {
   const audioRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
@@ -9,6 +11,22 @@ function AudioPlayer({ src, title, depositNumber, artist }) {
   const [duration, setDuration] = useState(0);
   const [volume, setVolume] = useState(1);
 
+  useEffect(() => {
+    const audio = audioRef.current;
+
+    const handlePlay = () => {
+      if (currentAudio && currentAudio !== audio) {
+        currentAudio.pause();
+        currentAudio.currentTime = 0; // Remet l'ancien player à zéro si besoin
+      }
+      currentAudio = audio;
+    };
+
+    audio.addEventListener("play", handlePlay);
+    return () => {
+      audio.removeEventListener("play", handlePlay);
+    };
+  }, []);
   useEffect(() => {
     const audio = audioRef.current;
     const updateTime = () => setCurrentTime(audio.currentTime);
@@ -69,12 +87,7 @@ function AudioPlayer({ src, title, depositNumber, artist }) {
       <div className={styles.AudioPlayer}>
         <h3>{title}</h3>
 
-        <h4>
-          Num.SIAE :{" "}
-          <span tel="false" data-number={depositNumber} auto-link="false">
-            "{depositNumber}"
-          </span>
-        </h4>
+        <h4>Num.SIAE : {depositNumber}</h4>
 
         <audio ref={audioRef} src={src}></audio>
 

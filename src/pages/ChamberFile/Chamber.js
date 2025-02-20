@@ -42,44 +42,6 @@ const Chamber = () => {
         <div className={styles.LecteursContainer}>
           <AudioPlayer
             className={styles.Player}
-            src={MarciaClaudicante}
-            title="Marcia Claudicante"
-            depositNumber="17006025100"
-          >
-            <audio
-              ref={(audio) => (audioRef.current = audio)}
-              src={MarciaClaudicante}
-            />
-          </AudioPlayer>
-
-          <AudioPlayer
-            className={styles.Player}
-            src={LeMatin}
-            title="Le Matin"
-            depositNumber="17006024600"
-          >
-            <audio ref={(audio) => (audioRef.current = audio)} src={LeMatin} />
-          </AudioPlayer>
-
-          <AudioPlayer
-            className={styles.Player}
-            src={Arcate}
-            title="Arcate"
-            depositNumber="17006025700"
-          >
-            <audio ref={(audio) => (audioRef.current = audio)} src={Arcate} />
-          </AudioPlayer>
-
-          <AudioPlayer
-            className={styles.Player}
-            src={Andante}
-            title="Andante"
-            depositNumber="17006025400"
-          >
-            <audio ref={(audio) => (audioRef.current = audio)} src={Andante} />
-          </AudioPlayer>
-          <AudioPlayer
-            className={styles.Player}
             src={UnClown}
             title="Un Clown"
             depositNumber="21162053500"
@@ -128,6 +90,36 @@ const Chamber = () => {
 
           <AudioPlayer
             className={styles.Player}
+            src={MarciaClaudicante}
+            title="Marcia Claudicante"
+            depositNumber="17006025100"
+          >
+            <audio
+              ref={(audio) => (audioRef.current = audio)}
+              src={MarciaClaudicante}
+            />
+          </AudioPlayer>
+
+          <AudioPlayer
+            className={styles.Player}
+            src={LeMatin}
+            title="Le Matin"
+            depositNumber="17006024600"
+          >
+            <audio ref={(audio) => (audioRef.current = audio)} src={LeMatin} />
+          </AudioPlayer>
+
+          <AudioPlayer
+            className={styles.Player}
+            src={Andante}
+            title="Andante"
+            depositNumber="17006025400"
+          >
+            <audio ref={(audio) => (audioRef.current = audio)} src={Andante} />
+          </AudioPlayer>
+
+          <AudioPlayer
+            className={styles.Player}
             src={Arancione}
             title="Arancione"
             depositNumber="22329036200"
@@ -157,6 +149,14 @@ const Chamber = () => {
               ref={(audio) => (audioRef.current = audio)}
               src={BambolanellaNeve}
             />
+          </AudioPlayer>
+          <AudioPlayer
+            className={styles.Player}
+            src={Arcate}
+            title="Arcate"
+            depositNumber="17006025700"
+          >
+            <audio ref={(audio) => (audioRef.current = audio)} src={Arcate} />
           </AudioPlayer>
 
           <AudioPlayer

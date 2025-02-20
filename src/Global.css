@@ -42,15 +42,11 @@ body {
   margin: 0;
   box-sizing: 0;
   padding: 0;
-  background-color: rgba(33, 29, 42, 0.639);
+  /* background-color: rgba(33, 29, 42, 0.639); */
+  /* background-color: rgb(113, 110, 119); */
+  background: linear-gradient(160deg, #716e77, #165665a3);
 }
 html {
   margin: 0;
   padding: 0;
 }
-
-/* @media (max-width: 1224px) {
-  button {
-    padding: 5px 8px !important;
-  }
-} */

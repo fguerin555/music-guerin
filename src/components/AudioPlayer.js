@@ -71,7 +71,7 @@ function AudioPlayer({ src, title, depositNumber, artist }) {
 
         <h4>
           Num.SIAE :{" "}
-          <span tel="false" data-number={depositNumber}>
+          <span tel="false" data-number={depositNumber} auto-link="false">
             "{depositNumber}"
           </span>
         </h4>

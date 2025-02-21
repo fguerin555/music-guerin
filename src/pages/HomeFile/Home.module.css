@@ -1,4 +1,36 @@
-.HomePage h1 {
-  color: violet;
-  font-family: "Montserrat-Medium", Arial, sans-serif;
+.HomePage p {
+  color: rgb(238, 223, 223);
+  font-family: "Montserrat-Thin", Arial, sans-serif;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.click1,
+.click2,
+.click3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 30px !important;
+  height: 30px !important;
+
+  background-color: rgb(83, 229, 166);
+  color: beige;
+  border: none;
+  border-radius: 5px;
+  padding: 4px 5px;
+  height: 30px;
+  font-size: 20px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  border: none;
+  text-shadow: 2px 2px 4px #15459e;
+}
+@media (max-width: 508px) {
+  .HomePage p {
+    font-size: 18px !important;
+    max-width: 100%;
+  }
 }

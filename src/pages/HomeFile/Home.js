@@ -6,7 +6,8 @@ const Home = () => {
   return (
     <div>
       <div className={styles.HomePage}>
-        <p>Frederic Guerin - Music Composer - fguerin555@gmail.com</p>
+        <p>Frederic Guerin</p>
+        <p>fguerin555@gmail.com</p>
         <p>
           Born in Boulogne-Billancourt France on 13 November 1959 - Living in
           Tuscany

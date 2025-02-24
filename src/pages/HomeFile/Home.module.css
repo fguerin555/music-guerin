@@ -6,28 +6,67 @@
   align-items: center;
   justify-content: center;
 }
-.click1,
-.click2,
-.click3 {
+.GuerinVideo {
+  max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  margin: 0 auto;
-  width: 30px !important;
-  height: 30px !important;
-
-  background-color: rgb(83, 229, 166);
-  color: beige;
-  border: none;
-  border-radius: 5px;
-  padding: 4px 5px;
-  height: 30px;
-  font-size: 20px;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
-  border: none;
-  text-shadow: 2px 2px 4px #15459e;
+  margin: 20px auto;
 }
+.GuerinVideo iframe {
+  border-radius: 10px;
+  border: 5px solid #8df6b4;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+.MusinfOne {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+.MusinfOne iframe {
+  border-radius: 10px;
+  border: 5px solid #8df6b4;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+.MusinfTwo {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+.MusinfTwo iframe {
+  border-radius: 10px;
+  border: 5px solid #8df6b4;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+.Bic {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+.Bic iframe {
+  border-radius: 10px;
+  border: 5px solid #8df6b4;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+.NBvideo {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+.NBvideo iframe {
+  border-radius: 10px;
+  border: 5px solid #8df6b4;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
 @media (max-width: 508px) {
   .HomePage p {
     font-size: 18px !important;

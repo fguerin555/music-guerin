@@ -1,6 +1,8 @@
 import React from "react";
 import "../../Global.css";
 import styles from "./Home.module.css";
+import ScrollToTop from "../../components/ScrollToTop";
+import BackButton from "../../components/BackButton";
 
 const Home = () => {
   return (
@@ -213,6 +215,8 @@ const Home = () => {
             allowfullscreen
           ></iframe>
         </div>
+        <ScrollToTop />
+        <BackButton />
       </div>
     </div>
   );

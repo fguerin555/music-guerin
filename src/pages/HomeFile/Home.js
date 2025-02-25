@@ -13,14 +13,15 @@ const Home = () => {
           <a href="mailto:fguerin555@gmail.com">fguerin555@gmail.com</a>
         </div>
 
-        <p>Born in Boulogne-Billancourt France on 13 November 1959</p>
+        <p>Born in Boulogne-Billancourt - France</p>
+        <p>on 13 November 1959</p>
         <p>Living in Tuscany </p>
         <p>Studies: Classical high school</p>
         <p>
           1992/1995 : School of Composition, Harmony and Counterpoint Jean
           Robert. Paris.
         </p>
-        <p>1977: Creation of the rock band “Cholera”. Caen. Normandy.</p>
+        <p>1977: creation of the rock band "Cholera". Caen. Normandy.</p>
         <p>
           1979: Creation and composition of a 120 minute musical work “SAGA”.
           Paris.

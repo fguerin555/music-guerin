@@ -69,6 +69,10 @@
     width: 100%;
     font-size: 1rem;
   }
+  .FooterEmail a {
+    width: 100%;
+    font-size: 1rem;
+  }
 
   @media (max-width: 570px) {
     .FooterEmail p {

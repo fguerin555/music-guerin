@@ -1,11 +1,22 @@
 .HomePage p {
-  color: rgb(238, 223, 223);
   font-family: "Montserrat-Thin", Arial, sans-serif;
   font-size: 20px;
   color: #c8f1d7;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.MailLink a {
+  font-size: 18px;
+  color: #c8f1d7;
+  font-family: "Montserrat-ThinItalic", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.MailLink a:hover {
+  color: rgb(238, 223, 223);
 }
 .GuerinVideo {
   max-width: 100%;
@@ -87,8 +98,7 @@
     margin-left: 5px !important;
     flex-direction: column;
   }
-  .FooterEmail {
-    color: #8df6b4;
+  .MailLink a {
     font-size: 16px;
   }
 }

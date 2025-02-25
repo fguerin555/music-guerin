@@ -9,7 +9,10 @@ const Home = () => {
     <div>
       <div className={styles.HomePage}>
         <p>Frederic Guerin</p>
-        <p>fguerin555@gmail.com</p>
+        <div className={styles.MailLink}>
+          <a href="mailto:fguerin555@gmail.com">fguerin555@gmail.com</a>
+        </div>
+
         <p>Born in Boulogne-Billancourt France on 13 November 1959</p>
         <p>Living in Tuscany </p>
         <p>Studies: Classical high school</p>

@@ -32,6 +32,30 @@ const Orchestral = () => {
         <div className={styles.LecteursContainer}>
           <AudioPlayer
             className={styles.Player}
+            src={PiccheeCuori}
+            title="Picche e Cuori"
+            depositNumber="17006024900"
+          >
+            <audio
+              ref={(audio) => (audioRef.current = audio)}
+              src={PiccheeCuori}
+            />
+          </AudioPlayer>
+
+          <AudioPlayer
+            className={styles.Player}
+            src={StrategiadellaTensione}
+            title="Strategia della Tensione"
+            depositNumber="17006025600"
+          >
+            <audio
+              ref={(audio) => (audioRef.current = audio)}
+              src={StrategiadellaTensione}
+            />
+          </AudioPlayer>
+
+          <AudioPlayer
+            className={styles.Player}
             src={Fragile}
             title="Fragile"
             depositNumber="18123026100"
@@ -115,28 +139,6 @@ const Orchestral = () => {
             <audio
               ref={(audio) => (audioRef.current = audio)}
               src={Volunteers}
-            />
-          </AudioPlayer>
-          <AudioPlayer
-            className={styles.Player}
-            src={StrategiadellaTensione}
-            title="Strategia della Tensione"
-            depositNumber="17006025600"
-          >
-            <audio
-              ref={(audio) => (audioRef.current = audio)}
-              src={StrategiadellaTensione}
-            />
-          </AudioPlayer>
-          <AudioPlayer
-            className={styles.Player}
-            src={PiccheeCuori}
-            title="Picche e Cuori"
-            depositNumber="17006024900"
-          >
-            <audio
-              ref={(audio) => (audioRef.current = audio)}
-              src={PiccheeCuori}
             />
           </AudioPlayer>
           <AudioPlayer

@@ -147,13 +147,13 @@ const Home = () => {
           <iframe
             width="560"
             height="315"
-            src="https://youtube.com/embed/-lhkqB8nn9s?si=bC-7O3LiUrDI63Ym-"
+            src="https://youtube.com/embed/nysRzwnPDXw?"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen
-            alt="Video Canzone: Notre Passion - Le Guérin & les Italiens"
+            alt="Le Guérin & les Italiens in concerto - canzone: Le campane di San Lorenzo"
           ></iframe>
         </div>
 

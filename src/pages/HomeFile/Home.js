@@ -21,7 +21,7 @@ const Home = () => {
           1992/1995 : School of Composition, Harmony and Counterpoint Jean
           Robert. Paris.
         </p>
-        <p>1977: creation of the rock band "Cholera". Caen. Normandy.</p>
+        <p>1977: Creation of the rock band "Cholera". Caen. Normandy.</p>
         <p>
           1979: Creation and composition of a 120 minute musical work “SAGA”.
           Paris.

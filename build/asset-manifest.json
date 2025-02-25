@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/music-guerin/static/css/main.db2fd42f.css",
-    "main.js": "/music-guerin/static/js/main.d861976f.js",
+    "main.js": "/music-guerin/static/js/main.9a99aa1c.js",
     "static/media/MuseoInfinito2.mp3": "/music-guerin/static/media/MuseoInfinito2.8f00d1313a5511016090.mp3",
     "static/media/Faraway.mp3": "/music-guerin/static/media/Faraway.9b6022a4433a4b05d2d3.mp3",
     "static/media/JuanlesPins.mp3": "/music-guerin/static/media/JuanlesPins.89fd0d4b5315b7e1f9b6.mp3",
@@ -107,10 +107,10 @@
     "static/media/JosefinSans-Medium.ttf": "/music-guerin/static/media/JosefinSans-Medium.45a5738c27c1bbbecc0c.ttf",
     "index.html": "/music-guerin/index.html",
     "main.db2fd42f.css.map": "/music-guerin/static/css/main.db2fd42f.css.map",
-    "main.d861976f.js.map": "/music-guerin/static/js/main.d861976f.js.map"
+    "main.9a99aa1c.js.map": "/music-guerin/static/js/main.9a99aa1c.js.map"
   },
   "entrypoints": [
     "static/css/main.db2fd42f.css",
-    "static/js/main.d861976f.js"
+    "static/js/main.9a99aa1c.js"
   ]
 }

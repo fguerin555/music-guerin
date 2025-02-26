@@ -53,18 +53,22 @@
   .BeforeFooter p {
     width: 100%;
     font-size: 1rem !important;
+    font-family: "Montserrat-ThinItalic", Arial, sans-serif !important;
   }
   .BeforeFooter a {
     width: 100%;
     font-size: 1rem !important;
+    font-family: "Montserrat-ThinItalic", Arial, sans-serif !important;
   }
 
   @media (max-width: 570px) {
     .BeforeFooter p {
       font-size: 0.8rem !important;
+      font-family: "Montserrat-ThinItalic", Arial, sans-serif !important;
     }
     .BeforeFooter a {
       font-size: 0.8rem !important;
+      font-family: "Montserrat-ThinItalic", Arial, sans-serif !important;
     }
   }
 }

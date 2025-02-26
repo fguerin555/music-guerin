@@ -14,20 +14,18 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <Router>
-      <div>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/music-guerin" element={<Home />} />
-          <Route path="/orchestral" element={<Orchestral />} />
-          <Route path="/chamber" element={<Chamber />} />
-          <Route path="/urban" element={<Urban />} />
-          <Route path="/piano" element={<Piano />} />
-          <Route path="/jazz" element={<Jazz />} />
-          <Route path="/west" element={<West />} />
-        </Routes>
-        <Footer />
-      </div>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/music-guerin" element={<Home />} />
+        <Route path="/orchestral" element={<Orchestral />} />
+        <Route path="/chamber" element={<Chamber />} />
+        <Route path="/urban" element={<Urban />} />
+        <Route path="/piano" element={<Piano />} />
+        <Route path="/jazz" element={<Jazz />} />
+        <Route path="/west" element={<West />} />
+      </Routes>
+      <Footer />
     </Router>
   );
 };

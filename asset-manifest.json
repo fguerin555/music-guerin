@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/music-guerin/static/css/main.7b4e60b1.css",
+    "main.css": "/music-guerin/static/css/main.db8149b8.css",
     "main.js": "/music-guerin/static/js/main.98a8b19c.js",
     "static/media/MuseoInfinito2.mp3": "/music-guerin/static/media/MuseoInfinito2.8f00d1313a5511016090.mp3",
     "static/media/Faraway.mp3": "/music-guerin/static/media/Faraway.9b6022a4433a4b05d2d3.mp3",
@@ -106,11 +106,11 @@
     "static/media/source-sans-pro.regular.ttf": "/music-guerin/static/media/source-sans-pro.regular.358e8828cd2fc97c7e74.ttf",
     "static/media/JosefinSans-Medium.ttf": "/music-guerin/static/media/JosefinSans-Medium.45a5738c27c1bbbecc0c.ttf",
     "index.html": "/music-guerin/index.html",
-    "main.7b4e60b1.css.map": "/music-guerin/static/css/main.7b4e60b1.css.map",
+    "main.db8149b8.css.map": "/music-guerin/static/css/main.db8149b8.css.map",
     "main.98a8b19c.js.map": "/music-guerin/static/js/main.98a8b19c.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b4e60b1.css",
+    "static/css/main.db8149b8.css",
     "static/js/main.98a8b19c.js"
   ]
 }

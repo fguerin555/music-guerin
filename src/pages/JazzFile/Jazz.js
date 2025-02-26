@@ -5,6 +5,7 @@ import styles from "./Jazz.module.css";
 import AudioPlayer from "../../components/AudioPlayer";
 import ScrollToTop from "../../components/ScrollToTop";
 import BackButton from "../../components/BackButton";
+import BeforeFooter from "../../components/BeforeFooter";
 import DontCryJanet from "../../assets/music/Jazz/Don'tCryJanet.mp3";
 import Faraway from "../../assets/music/Jazz/Faraway.mp3";
 import JuanlesPins from "../../assets/music/Jazz/JuanlesPins.mp3";
@@ -23,7 +24,7 @@ const Jazz = () => {
   return (
     <div>
       <div className={styles.JazzPage}>
-        <p>Jazz / Ethnic</p>
+        <p>Jazz/Ethnic</p>
 
         <div className={styles.LecteursContainer}>
           <AudioPlayer
@@ -151,6 +152,7 @@ const Jazz = () => {
             <audio ref={(audio) => (audioRef.current = audio)} src={Alambra} />
           </AudioPlayer>
         </div>
+        <BeforeFooter />
         <ScrollToTop />
         <BackButton />
       </div>

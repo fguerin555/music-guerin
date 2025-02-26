@@ -1,0 +1,70 @@
+.BeforeFooter {
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(50, 64, 87);
+  color: white;
+  flex-direction: column;
+  padding: 10px;
+  gap: 1px;
+  margin-bottom: 0;
+}
+
+.BeforeFooter p {
+  margin-top: 0;
+  font-family: "Montserrat-ThinItalic", Arial, sans-serif !important;
+  font-size: 1.4rem;
+  color: rgb(242, 246, 241) !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(50, 64, 87);
+  margin-bottom: 3px;
+}
+
+.BeforeFooter a {
+  font-size: 1.5rem;
+  color: rgb(242, 246, 241);
+  font-family: "Montserrat-ThinItalic", Arial, sans-serif !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.BeforeFooter a:hover {
+  color: #8df6b4;
+}
+
+@media (max-width: 1224px) {
+  .BeforeFooter {
+    padding: 10px;
+    flex-direction: column;
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 5px;
+  }
+
+  .BeforeFooter p {
+    width: 100%;
+    font-size: 1rem !important;
+  }
+  .BeforeFooter a {
+    width: 100%;
+    font-size: 1rem !important;
+  }
+
+  @media (max-width: 570px) {
+    .BeforeFooter p {
+      font-size: 0.8rem !important;
+    }
+    .BeforeFooter a {
+      font-size: 0.8rem !important;
+    }
+  }
+}

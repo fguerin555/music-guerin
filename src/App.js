@@ -16,7 +16,6 @@ const App = () => {
     <Router>
       <div>
         <Navbar />
-
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/music-guerin" element={<Home />} />

@@ -5,12 +5,12 @@ import styles from "./Chamber.module.css";
 import AudioPlayer from "../../components/AudioPlayer";
 import ScrollToTop from "../../components/ScrollToTop";
 import BackButton from "../../components/BackButton";
+import BeforeFooter from "../../components/BeforeFooter";
 
 import Andante from "../../assets/music/Bologna/Andante.mp3";
 import Arcate from "../../assets/music/Bologna/Arcate.mp3";
 import MarciaClaudicante from "../../assets/music/Bologna/MarciaClaudicante.mp3";
 import LeMatin from "../../assets/music/Bologna/LeMatin.mp3";
-
 import Alessandrino from "../../assets/music/Orchestral/Alessandrino.mp3";
 import Anima from "../../assets/music/Orchestral/Anima.mp3";
 import Arancione from "../../assets/music/Orchestral/Arancione.mp3";
@@ -294,7 +294,7 @@ const Chamber = () => {
             <audio ref={(audio) => (audioRef.current = audio)} src={Viola} />
           </AudioPlayer>
         </div>
-
+        <BeforeFooter />
         <ScrollToTop />
         <BackButton />
       </div>

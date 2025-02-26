@@ -5,6 +5,8 @@ import styles from "./Orchestral.module.css";
 import AudioPlayer from "../../components/AudioPlayer";
 import ScrollToTop from "../../components/ScrollToTop";
 import BackButton from "../../components/BackButton";
+import BeforeFooter from "../../components/BeforeFooter";
+
 import Fragile from "../../assets/music/Arte-Rubata/Fragile.mp3";
 import Collezione from "../../assets/music/Arte-Rubata/La-Collezione.mp3";
 import DansedesVoleurs from "../../assets/music/Arte-Rubata/La-Danse-des-voleurs.mp3";
@@ -216,7 +218,7 @@ const Orchestral = () => {
             />
           </AudioPlayer>
         </div>
-
+        <BeforeFooter />
         <ScrollToTop />
         <BackButton />
       </div>

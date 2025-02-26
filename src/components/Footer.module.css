@@ -2,84 +2,41 @@
   width: 100%;
   display: flex;
   box-sizing: border-box;
-  justify-content: flex-start; /* Déplacer les éléments vers la gauche */
+
   align-items: center;
-  padding: 1em 2em;
+  padding: 0.5em 0.5em;
   background-color: rgb(50, 64, 87);
   color: white;
-}
-
-.FooterContactInfo {
-  padding: 10px;
   flex-direction: column;
-  overflow: visible;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
   gap: 5px;
 }
 
-.FooterEmail p {
-  margin-top: 0;
+.Footer p {
+  margin-top: 3px;
   font-family: "Montserrat-Thin", Arial, sans-serif;
   font-size: 1.5rem;
   color: #8df6b4;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.DoYouNeed p {
-  margin-top: 0;
-
-  font-family: "Montserrat-ThinItalic", Arial, sans-serif;
-  font-size: 1.5rem;
-  color: #e4ece7;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.FooterEmail a {
-  font-size: 1.5rem;
-  color: rgb(242, 246, 241);
-  font-family: "Montserrat-ThinItalic", Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-}
-
-.FooterEmail a:hover {
-  color: #8df6b4;
+  margin-bottom: 0;
 }
 
 @media (max-width: 1224px) {
-  .FooterContactInfo {
-    padding: 10px;
+  .Footer p {
+    margin-top: 3px;
     flex-direction: column;
     overflow: visible;
     display: flex;
+    font-size: 1rem;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    gap: 5px;
+    gap: 2px;
   }
+}
 
-  .FooterEmail p {
-    width: 100%;
-    font-size: 1rem;
-  }
-  .FooterEmail a {
-    width: 100%;
-    font-size: 1rem;
-  }
-
-  @media (max-width: 570px) {
-    .FooterEmail p {
-      font-size: 0.8rem;
-    }
-    .FooterEmail a {
-      font-size: 0.8rem;
-    }
+@media (max-width: 570px) {
+  .Footer p {
+    font-size: 0.8rem;
   }
 }

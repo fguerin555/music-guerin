@@ -5,6 +5,7 @@ import styles from "./West.module.css";
 import AudioPlayer from "../../components/AudioPlayer";
 import ScrollToTop from "../../components/ScrollToTop";
 import BackButton from "../../components/BackButton";
+import BeforeFooter from "../../components/BeforeFooter";
 
 import AdiosAmigos from "../../assets/music/WestSpaghetti/AdiosAmigos.mp3";
 import Caravans from "../../assets/music/WestSpaghetti/Caravans.mp3";
@@ -130,7 +131,7 @@ const West = () => {
             />
           </AudioPlayer>
         </div>
-
+        <BeforeFooter />
         <ScrollToTop />
         <BackButton />
       </div>

@@ -5,6 +5,7 @@ import styles from "./Piano.module.css";
 import AudioPlayer from "../../components/AudioPlayer";
 import ScrollToTop from "../../components/ScrollToTop";
 import BackButton from "../../components/BackButton";
+import BeforeFooter from "../../components/BeforeFooter";
 
 import Animapianosolo from "../../assets/music/Piano/Animapianosolo.mp3";
 import Ricordi from "../../assets/music/Piano/Ricordi.mp3";
@@ -85,7 +86,7 @@ const Piano = () => {
             />
           </AudioPlayer>
         </div>
-
+        <BeforeFooter />
         <ScrollToTop />
         <BackButton />
       </div>

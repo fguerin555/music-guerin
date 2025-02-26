@@ -5,6 +5,7 @@ import styles from "./Urban.module.css";
 import AudioPlayer from "../../components/AudioPlayer";
 import ScrollToTop from "../../components/ScrollToTop";
 import BackButton from "../../components/BackButton";
+import BeforeFooter from "../../components/BeforeFooter";
 
 import Latetaki from "../../assets/music/Urban/Latetaki.mp3";
 import AutumnRapSoda from "../../assets/music/Urban/AutumnRapSoda.mp3";
@@ -277,7 +278,7 @@ const Urban = () => {
             />
           </AudioPlayer>
         </div>
-
+        <BeforeFooter />
         <ScrollToTop />
         <BackButton />
       </div>

@@ -133,7 +133,7 @@ const Home = () => {
         </p>
         <p>2012/2024: Music for documentaries "La Grand Storia" Rai3. Rome.</p>
         <p>
-          2017 : "LA RESA DEI CONTI" - Story of Italian Western Spaghetti
+          2017: "LA RESA DEI CONTI" - Story of Italian Western Spaghetti
           Productions
           <br />
           By Vanessa Roghi - Photography: Alessandra Tantillo
@@ -141,7 +141,13 @@ const Home = () => {
           Production / Edition / Diffusion:ARTS and HUMANITY RESEARCH COUNCIL.
           Warwick.{" "}
         </p>
-        <p>Musics Documentaries for "La Grande Storia" RAI 3. Rome.</p>
+
+        <p>
+          2023: Musics tor the podcast : "Archivi della Follia: in Cerca di
+          Franco Basaglia"
+          <br />
+          By Vanessa Roghi - Production Rai Play Sound
+        </p>
         <p>
           2009 to 2012: Creation of songs in French
           <br />

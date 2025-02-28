@@ -23,6 +23,15 @@ const Piano = () => {
         <div className={styles.LecteursContainer}>
           <AudioPlayer
             className={styles.Player}
+            src={Ricordi}
+            title="Ricordi"
+            depositNumber="17016049100"
+          >
+            <audio ref={(audio) => (audioRef.current = audio)} src={Ricordi} />
+          </AudioPlayer>
+
+          <AudioPlayer
+            className={styles.Player}
             src={Animapianosolo}
             title="Anima Piano Solo"
             depositNumber="20165038100"
@@ -31,14 +40,6 @@ const Piano = () => {
               ref={(audio) => (audioRef.current = audio)}
               src={Animapianosolo}
             />
-          </AudioPlayer>
-          <AudioPlayer
-            className={styles.Player}
-            src={Ricordi}
-            title="Ricordi"
-            depositNumber="17016049100"
-          >
-            <audio ref={(audio) => (audioRef.current = audio)} src={Ricordi} />
           </AudioPlayer>
           <AudioPlayer
             className={styles.Player}
